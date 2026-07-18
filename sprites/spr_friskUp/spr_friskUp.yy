@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Frisk",
-    "path":"folders/Characters/Frisk.yy",
+    "path":"folders/Sprites/Frisk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -13,8 +13,8 @@
   ],
   "name":"Room2",
   "parent":{
-    "name":"Somethingtale",
-    "path":"Somethingtale.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
