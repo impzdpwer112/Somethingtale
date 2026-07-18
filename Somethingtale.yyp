@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -19,6 +19,7 @@
   },
   "name":"Somethingtale",
   "resources":[
+    {"id":{"name":"obj_plr","path":"objects/obj_plr/obj_plr.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
