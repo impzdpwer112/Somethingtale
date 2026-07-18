@@ -18,6 +18,16 @@ yspd = (downK - upK) * wspd
 x += xspd
 y += yspd
 
+// collidiiosn???#FLm
+if(place_meeting(x + xspd, y, obj_collision)){
+	xspd = 0
+}
+
+if(place_meeting(x, y + yspd, obj_collision)){
+	yspd = 0
+}
+
+
 // sprite usage here now
 
 if(xspd>0){
