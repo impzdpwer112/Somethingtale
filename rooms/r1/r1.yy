@@ -15,6 +15,7 @@
     {"name":"inst_6C4B36B2","path":"rooms/r1/r1.yy",},
     {"name":"inst_C68F224","path":"rooms/r1/r1.yy",},
     {"name":"inst_5535B806","path":"rooms/r1/r1.yy",},
+    {"name":"inst_774FCE5B","path":"rooms/r1/r1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -32,6 +33,7 @@
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Warp","depth":200,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5535B806","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5535B806","objectId":{"name":"obj_roomwarp","path":"objects/obj_roomwarp/obj_roomwarp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.9,"scaleY":1.0,"x":210.0,"y":479.0,},
+        {"$GMRInstance":"v4","%Name":"inst_774FCE5B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_774FCE5B","objectId":{"name":"savestar","path":"objects/savestar/savestar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":221.0,"y":100.0,},
       ],"layers":[],"name":"Warp","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"waterfall_tiles2","depth":300,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"waterfall_tiles2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":16,"TileCompressedData":[
           -41,-2147483648,4,314,-2147483648,-2147483648,314,-11,-2147483648,1,330,-3,-2147483648,1,330,-13,-2147483648,
