@@ -15,6 +15,13 @@ if (keyboard_check(vk_shift)) {
 xspd = (rightK - leftK) * wspd
 yspd = (downK - upK) * wspd
 
+//anim walks still if hit sum
+if (keyboard_check(rightK or leftK or upK or downK)){
+	image_speed = 1
+} else {
+	image_speed = 0
+	image_index = 0
+}
 // collidiiosn???#FLm
 if(place_meeting(x + xspd, y, obj_collision)){
 	xspd = 0
@@ -45,11 +52,4 @@ if (xspd != 0 or yspd != 0){
 }else{
 	image_speed = 0
 	image_index= 0
-}
-
-if (rightK or leftK or upK or downK){
-	image_speed = 1
-} else {
-	image_speed = 0
-	image_index = 0
 }

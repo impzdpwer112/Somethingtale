@@ -1,0 +1,9 @@
+tar_x = 0
+tar_y = 0
+tar_r = 0
+facing = 0
+//0 = right
+//1 = left
+//2 = down
+//3 = up
+//ok thx noeeoele

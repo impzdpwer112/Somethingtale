@@ -1,0 +1,9 @@
+tar_x = 221
+tar_y = 99
+tar_r = r1
+facing = 2
+//0 = right
+//1 = left
+//2 = down
+//3 = up
+//ok thx noeeoele
