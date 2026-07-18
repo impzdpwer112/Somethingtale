@@ -6,8 +6,8 @@
   "name":"obj_collision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Somethingtale",
-    "path":"Somethingtale.yyp",
+    "name":"Collidable",
+    "path":"folders/Collidable.yy",
   },
   "parentObjectId":null,
   "persistent":false,

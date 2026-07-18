@@ -13,8 +13,8 @@
   "name":"obj_plr",
   "overriddenProperties":[],
   "parent":{
-    "name":"Somethingtale",
-    "path":"Somethingtale.yyp",
+    "name":"Characters",
+    "path":"folders/Characters.yy",
   },
   "parentObjectId":null,
   "persistent":false,

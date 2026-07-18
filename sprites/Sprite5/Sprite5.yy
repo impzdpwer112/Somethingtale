@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Somethingtale",
-    "path":"Somethingtale.yyp",
+    "name":"Collidable",
+    "path":"folders/Collidable.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

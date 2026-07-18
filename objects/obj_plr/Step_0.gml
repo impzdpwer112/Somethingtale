@@ -15,9 +15,6 @@ if (keyboard_check(vk_shift)) {
 xspd = (rightK - leftK) * wspd
 yspd = (downK - upK) * wspd
 
-x += xspd
-y += yspd
-
 // collidiiosn???#FLm
 if(place_meeting(x + xspd, y, obj_collision)){
 	xspd = 0
@@ -27,6 +24,9 @@ if(place_meeting(x, y + yspd, obj_collision)){
 	yspd = 0
 }
 
+
+x += xspd
+y += yspd
 
 // sprite usage here now
 
@@ -45,4 +45,11 @@ if (xspd != 0 or yspd != 0){
 }else{
 	image_speed = 0
 	image_index= 0
+}
+
+if (rightK or leftK or upK or downK){
+	image_speed = 1
+} else {
+	image_speed = 0
+	image_index = 0
 }
