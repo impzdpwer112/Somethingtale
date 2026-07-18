@@ -21,6 +21,12 @@
   "resources":[
     {"id":{"name":"obj_plr","path":"objects/obj_plr/obj_plr.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_friskDown","path":"sprites/spr_friskDown/spr_friskDown.yy",},},
+    {"id":{"name":"spr_friskLeft","path":"sprites/spr_friskLeft/spr_friskLeft.yy",},},
+    {"id":{"name":"spr_friskRight","path":"sprites/spr_friskRight/spr_friskRight.yy",},},
+    {"id":{"name":"spr_friskUp","path":"sprites/spr_friskUp/spr_friskUp.yy",},},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
