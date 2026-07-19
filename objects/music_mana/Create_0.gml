@@ -6,7 +6,6 @@ global.musvol = 1
 songinst = noone
 songass = noone
 targetsongass = noone
-endfade = 0
 startfade = 0
 startfadeinstvol = 1
 pitch = 1
@@ -21,7 +20,11 @@ endfadeinst = array_create(0)
 overlap = false
 
 
-
+//does this work
+// play 4 menu
+if (room = title_scr){
+audio_play_sound(Menu,4,true)
+}
 
 
 

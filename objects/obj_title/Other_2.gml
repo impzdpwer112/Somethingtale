@@ -15,7 +15,6 @@ global.down = ord("S")
 global.left = ord("A")
 global.right = ord("D")
 
-
 // room ids
 global.r1 = 1
 global.r2 = 2

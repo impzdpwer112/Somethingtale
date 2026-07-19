@@ -48,6 +48,7 @@
     {"id":{"name":"thing","path":"objects/thing/thing.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"title_scr","path":"rooms/title_scr/title_scr.yy",},},
+    {"id":{"name":"scp_music","path":"scripts/scp_music/scp_music.yy",},},
     {"id":{"name":"scp_upd_controls","path":"scripts/scp_upd_controls/scp_upd_controls.yy",},},
     {"id":{"name":"Menu","path":"sounds/Menu/Menu.yy",},},
     {"id":{"name":"fade","path":"sprites/fade/fade.yy",},},
