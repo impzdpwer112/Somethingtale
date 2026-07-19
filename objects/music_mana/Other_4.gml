@@ -1,5 +1,2 @@
-
-if room == Room1
-{
-	audio_pause_all()
-}
+if (room = Room1){
+	set_song_ingame()
