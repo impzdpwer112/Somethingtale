@@ -25,23 +25,31 @@ else if (crash_timer >= phase1_duration && crash_timer < (phase1_duration + phas
         window_resized = true;
     }
     
-    // 2. ลูกเล่นเขียนไฟล์ .txt และบังคับเปิดหน้าต่าง Notepad ขึ้นมาเอง (Overwrite เสมอ)
+        // 2. ลูกเล่นเขียนไฟล์ .txt วนลูปคำว่า forgive me 200 ครั้ง และเปิด Notepad (Overwrite เสมอ)
     if (!popup_opened) {
         var file_name = "warning.txt";
         var file = file_text_open_write(file_name);
         
         if (file != -1) {
-            file_text_write_string(file, "Y O U  T H O U G H T  Y O U  C O U L D  E S C A P E ?");
+            // เขียนหัวข้อเปิดเรื่องก่อน (เลือกใส่หรือไม่ใส่ก็ได้ครับ)
+            file_text_write_string(file, "Something went wrong...");
             file_text_writeln(file);
-            file_text_write_string(file, "There is no escape from Somethingtale.");
-            file_text_writeln(file);
-            file_text_write_string(file, "I am always watching you.");
+            file_text_writeln(file); // เว้นบรรทัดว่างเพิ่มความหลอน
+            
+            // ใช้คำสั่ง repeat เพื่อวนลูปโค้ดด้านในคำสั่งนี้จำนวน 200 ครั้งอย่างรวดเร็ว
+            repeat(200) {
+                file_text_write_string(file, "forgive me");
+                file_text_writeln(file); // ขึ้นบรรทัดใหม่ทุกครั้งที่เขียนเสร็จ
+            }
+            
             file_text_close(file);
         }
         
+        // บังคับให้ Windows เปิดหน้าต่าง Notepad โชว์ไฟล์นี้ขึ้นมาทันที
         url_open(file_name); 
         popup_opened = true;
     }
+
     
     // 3. ถล่มเสียง Menu ซ้อนยับๆ
     sound_timer += 1;
@@ -69,5 +77,6 @@ else {
     audio_stop_all();
     window_set_size(orig_w, orig_h);
     window_set_position(orig_x, orig_y);
+	file_delete("warning.txt")
     game_end();
 }
