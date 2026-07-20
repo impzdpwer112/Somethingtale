@@ -44,7 +44,7 @@ txt_spd = txt_spd_val
 txt_col = c_white
 txt_alpha = 1
 font = global.fontdefault
-mono_fonts = [fnt_main, fnt_main_jp, fnt_jp_comicsans]
+mono_fonts = [fnt_main, fnt_main_jp, fnt_comic_jp]
 
 asterisk = langtxt.sys.asterisk
 start_timer = [[]]

@@ -7,7 +7,5 @@ wspd = 2
 walkspd = 4
 rspd = 7.5
 
-facing_direction = 2
-
 can_move = true
 facing_direction = "down"

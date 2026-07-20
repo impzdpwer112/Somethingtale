@@ -14,7 +14,10 @@
 		"room": {
 			"rm_test_waterfall": {
 				"intr_bed": [["A bed!"],["Wait...","Why is a bed here?"]]
-			}
+			},
+			"Room1": {
+			"intr_sign_rm1": [["You read the sign."],["There is something.#Something in this tale"],["Something... tale?"],["That's a great name for this#place!"],["A tale of something,#so Somethingtale!"]],
+			"intr_mushroom": [["You looked at the same mushroom#from before."],["It vibrates#under the gaze of a child."]]
 		}
 	}
-}
+}}

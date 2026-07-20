@@ -69,7 +69,7 @@ if do_destroy{
 
 //controls
 var len = img_vals[page][15]
-if !txt_finished and (global.cancelbuttonpressed or keyboard_check(global.menubutton)) and can_control{
+if !txt_finished and (global.cancelbuttonpressed or keyboard_check(global.menuk)) and can_control{
     do_skip = true
     skip_timer = skip_timer_val
     for(var i = 0; i <= len; i++){
@@ -103,7 +103,7 @@ if char >= array_length(wait_vals[page][line]){
     arrfix = false
 }
 
-if (txt_finished and page != num_pages-1 and (global.selectbuttonpressed or (keyboard_check(global.menubutton)) and skip_timer <= 0)) or (arrfix and cut_vals[page][line][char]) and can_control{
+if (txt_finished and page != num_pages-1 and (global.selectbuttonpressed or (keyboard_check(global.menuk)) and skip_timer <= 0)) or (arrfix and cut_vals[page][line][char]) and can_control{
     page++
     line = 0
     char = 0
@@ -117,7 +117,7 @@ if (txt_finished and page != num_pages-1 and (global.selectbuttonpressed or (key
         img_frame_vals[i] = 0
     }
     txt_advance = true
-} else if txt_finished and page = num_pages-1 and (global.selectbuttonpressed or (keyboard_check(global.menubutton)) and skip_timer <= 0) and can_control{
+} else if txt_finished and page = num_pages-1 and (global.selectbuttonpressed or (keyboard_check(global.menuk)) and skip_timer <= 0) and can_control{
     do_destroy = true
 }
 

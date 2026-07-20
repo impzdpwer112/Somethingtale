@@ -54,20 +54,6 @@ if (xspd != 0 or yspd != 0){
 	image_index= 0
 }
 
-// Track direction for saving
-if (sprite_index == spr_friskRight) {
-	facing_direction = 0;
-}
-else if (sprite_index == spr_friskLeft) {
-	facing_direction = 1;
-}
-else if (sprite_index == spr_friskDown) {
-	facing_direction = 2;
-}
-else if (sprite_index == spr_friskUp) {
-	facing_direction = 3;
-}
-
 //keep track of direction facing
 if(sprite_index = spr_friskDown){
 	facing_direction = "down"
