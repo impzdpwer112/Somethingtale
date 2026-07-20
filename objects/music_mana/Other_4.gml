@@ -1,2 +1,3 @@
 if (room = Room1){
-	set_song_ingame()
+	set_song_ingame(noone)
+}

@@ -10,7 +10,7 @@ if(keyboard_check_pressed(ord("2"))){
     if(image_index == 0){
         ini_open("something.ini");
         room_goto(global.start_room); // เกมจะจำคำสั่งนี้เฉพาะเมื่อกดที่เมนู 0 เท่านั้น
-        var instantiated = instance_create_layer(global.start_x, global.start_y, "Player", obj_plr);
+        var instantiated = instance_create_layer(global.start_x, global.start_y, "mainchara", obj_mainchara);
         global.new_game = false;
         ini_close();
     }

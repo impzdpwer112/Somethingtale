@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_snd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_snd",
+  "parent":{
+    "name":"snd",
+    "path":"folders/Scripts/snd.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
